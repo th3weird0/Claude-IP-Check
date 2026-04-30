@@ -188,7 +188,7 @@ Fallback (not probed directly):
 ### 🪟 Windows
 
 ```
-powershell -ExecutionPolicy Bypass -File .\ClaudeCheck.v2.8.ps1
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force; .\ClaudeCheck.v2.8.fixed.ps1
 ```
 
 ------
